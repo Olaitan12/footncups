@@ -150,6 +150,38 @@ input:focus,
 /*=======================
 	Custom Select
 =======================*/
+.w3l_header{
+	font-size: 50px;
+    color: #ffcc33;
+    letter-spacing: 1px;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pricing-grids-info {
+    text-align: center;
+}
+.pricing-grid {
+    float: left;
+    width: 22.8%;
+    background: #fff;
+    padding: 1em 1em 2em;
+    border: 1px solid #1b1919;
+}
+.pricing-grid {
+    float: left;
+    width: 31%;
+}
+.pricing-grid.grid-two{
+	margin: 0 2em;
+	margin-top: 0px;
+    margin-right: 2em;
+    margin-bottom: 0px;
+    margin-left: 2em;
+}
+
 .tg-select{
 	width: 100%;
 	float:left;

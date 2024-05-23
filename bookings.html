@@ -2,7 +2,8 @@
 <!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zxx"> <![endif]-->
 <!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang="zxx"> <![endif]-->
 <!--[if IE 8]>			<html class="no-js lt-ie9" lang="zxx"> <![endif]-->
-<!--[if gt IE 8]><!-->	<html class="no-js" lang="zxx"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zxx"> <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
@@ -28,6 +29,7 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
+
 <body>
 	<!--[if lt IE 8]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -42,63 +44,32 @@
 		<div id="tg-navigationm-mobile" class="tg-navigationm-mobile tg-navigation collapse navbar-collapse">
 			<span id="tg-close" class="tg-close fa fa-close"></span>
 			<div class="tg-colhalf">
-				<ul>
-					<li>
-						<a href="#">Main</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="index-2.html">home1</a></li>
-							<li><a href="index2.html">home2</a></li>
+				<ul class="nav navbar-nav cl-effect-16">
+					<li><a href="/" data-hover="Home">Home</a></li>
+					<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/aboutus.html" data-hover="About footncups">About Foot'n'Cups</a></li>
+							<li><a href="/contactus.html" data-hover="Contact Us">Contact Us</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="#">team</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="playergrid-v1.html">playergrid-v1</a></li>
-							<li><a href="playergrid-v2.html">playergrid-v2</a></li>
-							<li><a href="playerdetail.html">playergrid detail</a></li>
+					<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Bookings <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/bookings.html" data-hover="Booking Options">Booking Options</a></li>
+							<li><a href="/membership" data-hover="Corporate Membership">Corporate Membership</a></li>
+							<li><a href="/partnerships" data-hover="Partnerships">Partnerships</a></li>
 						</ul>
 					</li>
-					<li><a href="buyticket.html">Buy Tickets</a></li>
-					<li>
-						<a href="#">Match Results</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="matchresult.html">match result</a></li>
-							<li><a href="matchresultdetail.html">match result detail</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="tg-colhalf">
-				<ul>
-					<li>
-						<a href="#">fixtures</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="fixtures.html">fixtures</a></li>
-							<li><a href="fixturedetail.html">fixture detail</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">pro soccer media</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="soccermedia-1.html">pro soccer media1</a></li>
-							<li><a href="soccermedia-2.html">pro soccer media2</a></li>
-						</ul>
-					</li>
-					<li><a href="contactus.html">Contact</a></li>
-					<li class="active">
-						<a href="#"><i class=" fa fa-navicon"></i></a>
-						<ul>
-							<li><a href="aboutus.html">about us</a></li>
-							<li><a href="shoplist.html">shop list</a></li>
-							<li><a href="shopgrid.html">shop grid</a></li>
-							<li><a href="productsingle.html">shop detail</a></li>
-							<li><a href="bloglist.html">blog list</a></li>
-							<li><a href="bloggrid.html">blog grid</a></li>
-							<li><a href="blogdetail.html">blog detail</a></li>
-							<li class="active"><a href="404.html">404 error</a></li>
-							<li><a href="comming-soon.html">comming soon</a></li>
-						</ul>
-					</li>
+
+					<!-- How to embed Ayoola_Menu -->
+
+					<li><a target="" href="/events" onclick="" data-hover="Events">Events</a></li>
+
+					<!-- Place this code in code view -->
+
+					<li><a href="/blog" data-hover="Blog">Blog</a></li>
+
 				</ul>
 			</div>
 		</div>
@@ -115,27 +86,34 @@
 						<div class="tg-topbar tg-haslayout">
 							<nav id="tg-topaddnav" class="tg-topaddnav">
 								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-addnavigationm-mobile">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+										data-target="#tg-addnavigationm-mobile">
 										<i class="fa fa-arrow-right"></i>
 									</button>
 								</div>
-								<div id="tg-addnavigationm-mobile" class="tg-addnavigationm-mobile collapse navbar-collapse">
+								<div id="tg-addnavigationm-mobile"
+									class="tg-addnavigationm-mobile collapse navbar-collapse">
 									<div class="tg-colhalf pull-right">
 										<nav class="tg-addnav">
 											<ul>
-												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a></li>
-												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a></li>
+												<li><a href="javascript().html" data-toggle="modal"
+														data-target="#tg-login">login</a></li>
+												<li><a href="javascript().html" data-toggle="modal"
+														data-target="#tg-register">Register</a></li>
 												<li>
 													<div class="tg-cart">
-														<a href="javascript:void(0)" class="dropdown-toggle" id="tg-cartdropdown" data-toggle="dropdown">
+														<a href="javascript:void(0)" class="dropdown-toggle"
+															id="tg-cartdropdown" data-toggle="dropdown">
 															<i class="fa fa-shopping-cart"></i>
 														</a>
-														<div class="tg-cartcontent dropdown-menu" aria-labelledby="tg-cartdropdown">
+														<div class="tg-cartcontent dropdown-menu"
+															aria-labelledby="tg-cartdropdown">
 															<ul>
 																<li>
 																	<figure>
 																		<a href="#">
-																			<img src="images/thumbnails/img-01.jpg" alt="image description">
+																			<img src="images/thumbnails/img-01.jpg"
+																				alt="image description">
 																		</a>
 																	</figure>
 																	<div class="tg-product-detail">
@@ -147,7 +125,8 @@
 																<li>
 																	<figure>
 																		<a href="#">
-																			<img src="images/thumbnails/img-02.jpg" alt="image description">
+																			<img src="images/thumbnails/img-02.jpg"
+																				alt="image description">
 																		</a>
 																	</figure>
 																	<div class="tg-product-detail">
@@ -159,7 +138,8 @@
 																<li>
 																	<figure>
 																		<a href="#">
-																			<img src="images/thumbnails/img-03.jpg" alt="image description">
+																			<img src="images/thumbnails/img-03.jpg"
+																				alt="image description">
 																		</a>
 																	</figure>
 																	<div class="tg-product-detail">
@@ -170,8 +150,10 @@
 																</li>
 																<li>
 																	<div class="tg-btnbox">
-																		<strong class="tg-carttotal">Total: $134</strong>
-																		<a class="tg-btn" href="#"><span>checkout</span></a>
+																		<strong class="tg-carttotal">Total:
+																			$134</strong>
+																		<a class="tg-btn"
+																			href="#"><span>checkout</span></a>
 																	</div>
 																</li>
 															</ul>
@@ -179,7 +161,8 @@
 													</div>
 												</li>
 												<li>
-													<a id="tg-btn-search" href="javascript:void(0)"><i class="fa fa-search"></i></a>
+													<a id="tg-btn-search" href="javascript:void(0)"><i
+															class="fa fa-search"></i></a>
 												</li>
 											</ul>
 										</nav>
@@ -218,7 +201,8 @@
 						</div>
 						<nav id="tg-nav" class="tg-nav brand-center">
 							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigationm-mobile">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#tg-navigationm-mobile">
 									<i class="fa fa-bars"></i>
 								</button>
 								<strong class="tg-logo">
@@ -227,63 +211,42 @@
 							</div>
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
-									<ul>
-										<li>
-											<a href="#">Main</a>
-											<ul class="tg-dropdown-menu">
-												<li><a href="index-2.html">home1</a></li>
-												<li><a href="index2.html">home2</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">team</a>
-											<ul class="tg-dropdown-menu">
-												<li><a href="playergrid-v1.html">playergrid-v1</a></li>
-												<li><a href="playergrid-v2.html">playergrid-v2</a></li>
-												<li><a href="playerdetail.html">playergrid detail</a></li>
-											</ul>
-										</li>
-										<li><a href="buyticket.html">Buy Tickets</a></li>
-										<li>
-											<a href="#">Match Results</a>
-											<ul class="tg-dropdown-menu">
-												<li><a href="matchresult.html">match result</a></li>
-												<li><a href="matchresultdetail.html">match result detail</a></li>
+									<ul class="nav navbar-nav cl-effect-16">
+										<li><a href="/" data-hover="Home">Home</a></li>
+										<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+												role="button" aria-haspopup="true" aria-expanded="false">About <span
+													class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a href="/about" data-hover="About FootnCups">About Foot'n'Cups</a>
+												</li>
+												<li><a href="/contact" data-hover="Contact Us">Contact Us</a></li>
 											</ul>
 										</li>
 									</ul>
 								</div>
 								<div class="tg-colhalf">
-									<ul>
-										<li>
-											<a href="#">fixtures</a>
-											<ul class="tg-dropdown-menu">
-												<li><a href="fixtures.html">fixtures</a></li>
-												<li><a href="fixturedetail.html">fixture detail</a></li>
+									<ul class="nav navbar-nav cl-effect-16">
+										<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+												role="button" aria-haspopup="true" aria-expanded="false">Bookings <span
+													class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a href="/bookings.html" data-hover="Booking Options">Booking
+														Options</a>
+												</li>
+												<li><a href="/membership" data-hover="Corporate Membership">Corporate
+														Membership</a></li>
+												<li><a href="/partnerships" data-hover="Partnerships">Partnerships</a>
+												</li>
 											</ul>
 										</li>
-										<li>
-											<a href="#">pro soccer media</a>
-											<ul class="tg-dropdown-menu">
-												<li><a href="soccermedia-1.html">pro soccer media1</a></li>
-												<li><a href="soccermedia-2.html">pro soccer media2</a></li>
-											</ul>
-										</li>
-										<li><a href="contactus.html">Contact</a></li>
-										<li class="active">
-											<a href="#"><i class=" fa fa-navicon"></i></a>
-											<ul>
-												<li><a href="aboutus.html">about us</a></li>
-												<li><a href="shoplist.html">shop list</a></li>
-												<li><a href="shopgrid.html">shop grid</a></li>
-												<li><a href="productsingle.html">shop detail</a></li>
-												<li><a href="bloglist.html">blog list</a></li>
-												<li><a href="bloggrid.html">blog grid</a></li>
-												<li><a href="blogdetail.html">blog detail</a></li>
-												<li class="active"><a href="404.html">404 error</a></li>
-												<li><a href="comming-soon.html">comming soon</a></li>
-											</ul>
-										</li>
+
+										<!-- How to embed Ayoola_Menu -->
+
+										<li><a target="" href="/events" onclick="" data-hover="Events">Events</a></li>
+
+										<!-- Place this code in code view -->
+
+										<li><a href="/blog" data-hover="Blog">Blog</a></li>
 									</ul>
 								</div>
 							</div>
@@ -304,14 +267,8 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="tg-banner-content tg-haslayout">
-						<div class="tg-pagetitle">
-							<h1>404</h1>
-						</div>
-						<ol class="tg-breadcrumb">
-							<li><a href="#">Home</a></li>
-							<li class="active">404</li>
-						</ol>
+					<div class="wthree_head_section">
+						<h3 class="w3l_header">Foot'N'Cups Subscriptions</h3>
 					</div>
 				</div>
 			</div>
@@ -324,27 +281,252 @@
 		*************************************-->
 		<main id="tg-main" class="tg-main tg-haslayout">
 			<section class="tg-main-section tg-haslayout">
-				<div class="container">
+				<div class="w3ls-section wthree-pricing">
+					<div class="container">
+
+						<div class="pricing-grids-info">
+							<!-- How to embed Application_Article_ShowAll -->
+
+
+							<div class="pricing-grid grid-one">
+								<div class="w3ls-top">
+									<h3 style="height:2em; overflow:hidden;"><a style="color:inherit;"
+											href="/2019/04/11/football-pitch-facility-rental.html">Football Pitch
+											Facility Rental</a></h3>
+								</div>
+								<div class="w3ls-bottom">
+									<ul class="count">
+										<li><img src="images/img-01.jpg" alt="image description"></li>
+									</ul>
+									<h4 style="height:1em; overflow:hidden;">...<span class="sup"></span> </h4>
+									<div class="more">
+										<a href="/2019/04/11/football-pitch-facility-rental.html">Select</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="pricing-grid grid-two">
+								<div class="w3ls-top">
+									<h3 style="height:2em; overflow:hidden;"><a style="color:inherit;"
+											href="/2019/04/07/pay-play.html">Pay &amp; Play</a></h3>
+								</div>
+								<div class="w3ls-bottom">
+									<ul class="count">
+										<li><img src="images/img-01.jpg" alt="image description"></li>
+									</ul>
+									<h4 style="height:1em; overflow:hidden;">...<span class="sup"></span> </h4>
+									<div class="more">
+										<a href="/2019/04/07/pay-play.html">Select</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="pricing-grid grid-three">
+								<div class="w3ls-top">
+									<h3 style="height:2em; overflow:hidden;"><a style="color:inherit;"
+											href="/2019/04/07/slot-bookings.html">Slot bookings</a></h3>
+								</div>
+								<div class="w3ls-bottom">
+									<ul class="count">
+										<li><img src="images/img-01.jpg" alt="image description"></li>
+									</ul>
+									<h4 style="height:1em; overflow:hidden;">...<span class="sup"></span> </h4>
+									<div class="more">
+										<a href="/2019/04/07/slot-bookings.html">Select</a>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="pricing-grid grid-four">
+								<div class="w3ls-top">
+									<h3 style="height:2em; overflow:hidden;"><a style="color:inherit;"
+											href="/2019/04/07/school-subscription.html">School subscription</a></h3>
+								</div>
+								<div class="w3ls-bottom">
+									<ul class="count">
+										<li><img src="images/img-01.jpg" alt="image description"></li>
+									</ul>
+									<h4 style="height:1em; overflow:hidden;">...<span class="sup"></span> </h4>
+									<div class="more">
+										<a href="/2019/04/07/school-subscription.html">Select</a>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- <div style="text-align:center;" class="pc_posts_distinguish_sets" id="post-id-617496409771aafe47c622ec9ef499c2_pagination"><a class="pc-btn pc-btn-small" href="javascript:""> Load more</a></div> -->
+							<!-- Place this code in code view -->
+
+
+							<div class="clearfix"> </div>
+							<!--End-slider-script-->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-pc-all-sections="1" class="container">
+				<div class="">
 					<div class="row">
-						<div class="col-md-8 col-sm-12 col-xs-12">
-							<div class="tg-404">
-								<h2>4<span></span>4</h2>
+						<div class="pc_page_layout_grid col-md-12 12u">
+							<style>
+								.feedbackLinks {
+									background-color: #31B0D5;
+									color: white;
+									padding: 10px 20px;
+									border-radius: 4px;
+									border-color: #46b8da;
+								}
+
+								.feedbackLinks:hover {
+									background-color: #ccc;
+									color: black;
+								}
+
+								.activeLink {
+									background-color: orange;
+									border-color: yellow;
+								}
+
+								.large-fonts {
+									font-size: x-large;
+								}
+
+								#my_fixed_button {
+									position: fixed;
+									bottom: 10px;
+									left: 10px;
+
+								}
+							</style>
+
+							<div id="my_fixed_button">
+								<div class="container">
+									<a href="/tour" class="feedbackLinks activeLink"><i
+											class="fa fa-chevron-right pc_give_space"></i> Virtual Tour</a>
+									<!--<a href="/feedback" class="feedbackLinks"><i class="fa fa-envelope  pc_give_space"></i> Feedback</a>-->
+								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<div class="tg-404-content">
-								<div class="tg-section-heading"><h2>oops! something went wrong. page not found.</h2></div>
-								<div class="tg-description">
-									<p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class="row">
+						<div class="pc_page_layout_grid col-sm-6 6u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-6 6u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+					</div>
+					<div class="row">
+						<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+					</div>
+					<div class="row">
+						<div class="pc_page_layout_grid col-sm-3 3u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-3 3u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-3 3u 6u(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-3 3u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+					</div>
+					<div class="row">
+						<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+						<div class="pc_page_layout_grid col-sm-8 8u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+						</div>
+					</div>
+					<div class="row">
+						<div class="pc_page_layout_grid col-sm-8 8u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+							<div class=" pc-well " style="background-color: #333;color: #fff !important;">
+								<div class="">
+									<h3 style="text-align: center; color: #ffcc33;">Benefits of Corporate membership</h3>
 								</div>
-								<form class="tg-searcharea">
-									<fieldset>
-										<div class="form-group">
-											<input type="search" placeholder="Search">
-										</div>
-										<button type="submit" class="tg-btn">search</button>
-									</fieldset>
-								</form>
+								<div style="clear:both;"></div>
+							</div>
+							<div class=" pc-well " style="">
+								<div class="">
+									<ol>
+										<li>
+											<p>&nbsp;Team building amongst the organization`s staff. This has been
+												proven time and again that it boosts productivity at work</p>
+										</li>
+										<li>
+											<p>&nbsp;Increase in Physical fitness of your staffs, thereby making them
+												mentally and physically alert</p>
+										</li>
+										<li>
+											<p>&nbsp;Networking with other corporate clients. Our growing profile of
+												corporate and social members make our facilities a venue for meeting the
+												right people and increasing everyone's win-win situations</p>
+										</li>
+										<li>
+											<p>&nbsp;Company name &amp; logo on Funturf's profile</p>
+										</li>
+										<li>
+											<p>&nbsp;VIP invitations to events, tournaments, programmes arranged at
+												Funturf facilities nationwide</p>
+										</li>
+										<li>
+											<p>&nbsp;Special discounts rates for the use of Funturf's facility</p>
+										</li>
+										<li>
+											<p>&nbsp;Display of company banners &amp; flags while team play</p>
+										</li>
+										<li>
+											<p>&nbsp;Opportunity for corporate sponsorship for Funturf events</p>
+										</li>
+										<li>
+											<p>&nbsp;Branding opportunities at good rates</p>
+										</li>
+									</ol>
+								</div>
+								<div style="clear:both;"></div>
+							</div>
+						</div>
+						<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+							<div class=" pc-well " style="background-color: #333;color: #ffcc33 !important;">
+								<div class="">
+									<h3 style="text-align: center; color: #ffcc33; ">What is included!</h3>
+								</div>
+								<div style="clear:both;"></div>
+							</div>
+							<div class=" pc-well " style="background-color: #fff;color: #333 !important;">
+								<div class="">
+									<ol>
+										<li>
+											<p>&nbsp;3 hours playing sessions weekly</p>
+										</li>
+										<li>
+											<p>&nbsp;One bottle of water each for all your players</p>
+										</li>
+										<li>
+											<p>&nbsp;Bibs</p>
+										</li>
+										<li>
+											<p>&nbsp;Footballs</p>
+										</li>
+										<li>
+											<p>&nbsp;Game officiating officials</p>
+										</li>
+										<li>
+											<p>&nbsp;Competitions</p>
+										</li>
+										<li>
+											<p>&nbsp;Shower and changing room</p>
+										</li>
+										<li>
+											<p>&nbsp;Lounge for relaxation</p>
+										</li>
+									</ol>
+								</div>
+								<div style="clear:both;"></div>
 							</div>
 						</div>
 					</div>
@@ -370,12 +552,14 @@
 										<h3>signup newsletter</h3>
 									</div>
 									<div class="tg-description">
-										<p>By subscribing to our mailing list you will always get latest interesting news from us at Foot'N'Cups.</p>
+										<p>By subscribing to our mailing list you will always get latest interesting
+											news from us at Foot'N'Cups.</p>
 									</div>
 									<form class="tg-form-newsletter">
 										<fieldset>
 											<div class="form-group">
-												<input type="email" class="form-control" name="email" placeholder="Email">
+												<input type="email" class="form-control" name="email"
+													placeholder="Email">
 											</div>
 											<button class="tg-btn" type="submit">signup</button>
 										</fieldset>
@@ -397,7 +581,7 @@
 								</div>
 							</div>
 							<div class="col-sm-4">
-								<div class="tg-footercol">
+								<!-- <div class="tg-footercol">
 									<div class="tg-posttitle">
 										<h3>Top products</h3>
 									</div>
@@ -410,7 +594,8 @@
 													</a>
 												</figure>
 												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
+													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span
+														class="tg-stars"><span></span></span>
 													<span class="tg-price">Price: $67</span>
 												</div>
 											</li>
@@ -421,7 +606,8 @@
 													</a>
 												</figure>
 												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
+													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span
+														class="tg-stars"><span></span></span>
 													<span class="tg-price">Price: $67</span>
 												</div>
 											</li>
@@ -432,7 +618,8 @@
 													</a>
 												</figure>
 												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
+													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span
+														class="tg-stars"><span></span></span>
 													<span class="tg-price">Price: $67</span>
 												</div>
 											</li>
@@ -443,13 +630,14 @@
 													</a>
 												</figure>
 												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
+													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span
+														class="tg-stars"><span></span></span>
 													<span class="tg-price">Price: $67</span>
 												</div>
 											</li>
 										</ul>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<div class="col-sm-4">
 								<div class="tg-footercol">
@@ -461,20 +649,20 @@
 										</strong>
 									</div>
 									<div class="tg-description">
-										<p>Consectetur adipisicing elit sedtado eiusmod dunt ut labore et dolore magna aliqua enim minim veniami quis nostrud.</p>
+										<p>CONTACT</p>
 									</div>
 									<ul class="tg-contactinfo">
 										<li>
 											<i class="fa fa-home"></i>
-											<address>123 Eccles Old Road, New Salford Road London, Uk, M6 7AF</address>
+											<address>Debo Street Selewu Igbogbo Ikorodu, Lagos State.</address>
 										</li>
 										<li>
 											<i class="fa fa-envelope-o"></i>
-											<a href="info%40domain.html">info@domain.com</a>
+											<a href="footncups@hotmail.com">footncups@hotmail.com</a>
 										</li>
 										<li>
 											<i class="fa fa-phone"></i>
-											<span>+44 123 456 788 - 9</span>
+											<span>09063598930, 09016042446, 07066903492</span>
 										</li>
 									</ul>
 									<div class="tg-haslayout">
@@ -486,24 +674,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="tg-footerbar">
-				<div class="container">
-					<span class="tg-copyright"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></span>
-					<nav class="tg-footernav">
-						<ul>
-							<li><a href="#">Main</a></li>
-							<li><a href="#">Team</a></li>
-							<li><a href="#">Buy Tickets</a></li>
-							<li><a href="#">Match Results</a></li>
-							<li><a href="#">Upcoming Matches</a></li>
-							<li><a href="#">Shop</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
 		</footer>
-		<!--************************************
+	<!--************************************
 				Footer End
 		*************************************-->
 	</div>
@@ -547,7 +719,8 @@
 					<form class="tg-loginform" method="post">
 						<fieldset>
 							<div class="form-group">
-								<input type="text" name="userName/email" class="form-control" placeholder="username/email">
+								<input type="text" name="userName/email" class="form-control"
+									placeholder="username/email">
 							</div>
 							<div class="form-group">
 								<input type="password" name="password" class="form-control" placeholder="password">
